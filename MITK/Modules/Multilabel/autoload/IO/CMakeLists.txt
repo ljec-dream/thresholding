@@ -1,0 +1,6 @@
+MITK_CREATE_MODULE( MultilabelIO
+  DEPENDS PUBLIC MitkMultilabel MitkSceneSerialization
+  PACKAGE_DEPENDS
+    PRIVATE ITK|ITKQuadEdgeMesh+ITKAntiAlias+ITKIONRRD
+  AUTOLOAD_WITH MitkCore
+)

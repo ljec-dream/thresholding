@@ -1,0 +1,19 @@
+/**
+\page org_mitk_gui_qt_remeshing The Remeshing 
+
+\imageMacro{RemeshingIcon.png,"Icon of the Remeshing Plugin.",2.00}
+
+\tableofcontents
+
+\section org_mitk_gui_qt_remeshingOverview Overview
+
+The Remeshing View allows you to remesh surfaces.
+If done right, remeshing can dramatically increase the quality of your surface mesh.
+However, you might lose precision if you reduce the vertex density of your surface mesh too strong.
+Even when you preserve the detail of your mesh, there might be a tiny distance between your original surface and the remeshed surface.
+Hence, be careful when using remeshed surfaces for evaluation purposes and always keep the original versions.
+
+\section org_mitk_gui_qt_remeshingUsage Usage
+
+The Remeshing View provides details on its parameters in its user interface. When in doubt, start with the default parameters and iterate to your desired result by reducing the density parameter.
+*/

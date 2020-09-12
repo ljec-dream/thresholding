@@ -1,0 +1,11 @@
+set(MODULE_TESTS
+  mitkAnnotationTest.cpp
+  mitkManualPlacementAnnotationRendererTest.cpp
+  mitkColorBarAnnotationTest.cpp
+  mitkLabelAnnotation3DTest.cpp
+  mitkLogoAnnotationTest.cpp
+  mitkLayoutAnnotationRendererTest.cpp
+  mitkScaleLegendAnnotationTest.cpp
+  mitkTextAnnotation2DTest.cpp
+  mitkTextAnnotation3DTest.cpp
+)

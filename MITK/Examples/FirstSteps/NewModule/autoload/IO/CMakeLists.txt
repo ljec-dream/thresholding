@@ -1,0 +1,9 @@
+MITK_CREATE_MODULE( NewModuleIO
+  INCLUDE_DIRS
+    PRIVATE src/IO
+  DEPENDS PUBLIC MitkNewModule MitkSceneSerialization
+  PACKAGE_DEPENDS
+    PRIVATE tinyxml
+  AUTOLOAD_WITH MitkCore
+  SUBPROJECTS MITK-Examples
+)
